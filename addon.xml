@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.indefenseofliberation" name="In Defense Of Liberation" version="1.0.0" provider-name="leopheard">
+  <requires>
+    <import addon="xbmc.python" version="2.26.0"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.1"/>
+    <import addon="script.module.requests" version="1.1.0"/>
+    <import addon="script.module.routing" version="0.2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language>en_us</language>
+    <summary lang="en">In Defense Of Liberation</summary>
+    <description lang="en">In Defense of Liberation is a podcast and blog centered around fighting for, educating about, and working towards true liberation for all peoples. I talk about a range of different topics, from fundamental theory to contemporary social movements and events, from the history of revolutions or revolutionary thinkers to just my thoughts during a day! We are here to fight for a true, internationalist Proletarian Revolution, by whatever means necessary! Education is revolutionary; so educate yourself along with me, your host, Josh! Come along to Liberation! Power to the People!</description>
+    <license>The MIT License (MIT)</license>
+    <forum></forum>
+    <email>leopheard@gmail.com</email>
+    <source>https://github.com/leopheard/InDefenseOfLiberation</source>
+    <website>https://forliberation.wixsite.com/website</website>
+        	<assets>
+			<icon>resources/media/icon.jpg</icon>
+			<fanart>resources/media/icon.jpg</fanart>
+			<screenshot>resources/media/icon.jpg</screenshot>
+			<screenshot>resources/media/icon.jpg</screenshot>
+			<screenshot>resources/media/icon.jpg</screenshot>
+		</assets>
+  </extension>
+</addon>
